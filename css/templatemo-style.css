@@ -461,6 +461,7 @@ a#logo {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
   box-shadow: 0 0 40px rgba(0,0,0,.3);
+  width: 75%;
 }
 .about-contentbox {
   margin-top: 80px;
