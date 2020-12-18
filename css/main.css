@@ -1,5 +1,17 @@
 .devicon {
-  width: 15%;
-  margin: 20px;
+  width: 13%;
+  margin: 1%;
+}
+
+.skills-row > .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

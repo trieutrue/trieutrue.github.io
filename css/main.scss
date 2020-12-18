@@ -1,6 +1,12 @@
 @import "./colors";
 
 .devicon {
-  width: 15%;
-  margin: 20px;
+  width: 13%;
+  margin: 1%;
+}
+
+.skills-row > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
