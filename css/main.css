@@ -14,4 +14,52 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.link-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #A9A9A9;
+  background-color: #A9A9A9;
+  cursor: pointer;
+}
+
+.link-circle i {
+  font-size: 36px;
+}
+
+.link-circle:hover {
+  background-color: transparent;
+}
+
+.link-circle:hover i {
+  color: #A9A9A9;
+}
+
+.portfolio-item .thumb-inner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.portfolio-item:hover .thumb-inner div {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+}
 /*# sourceMappingURL=main.css.map */

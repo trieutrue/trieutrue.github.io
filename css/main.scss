@@ -10,3 +10,50 @@
   justify-content: center;
   align-items: center;
 }
+
+.link-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #A9A9A9;
+  background-color: #A9A9A9;
+  cursor: pointer;
+
+  i {
+    font-size: 36px;
+  }
+
+  &:hover {
+    background-color: transparent;
+
+    i {
+      color: #A9A9A9;
+    }
+  }
+}
+
+.portfolio-item {
+  .thumb-inner {
+    div {
+      display: flex;
+      justify-content: space-around;
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      width: 100%;
+    }
+  }
+  
+  &:hover {
+    .thumb-inner {
+      div {
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+      }
+    }
+  }
+}
