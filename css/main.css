@@ -28,7 +28,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 2px solid #A9A9A9;
+  border: 3px solid #A9A9A9;
   background-color: #A9A9A9;
   cursor: pointer;
 }
@@ -55,6 +55,10 @@
   visibility: hidden;
   position: absolute;
   width: 100%;
+}
+
+.portfolio-item .thumb-inner div a {
+  text-decoration: none;
 }
 
 .portfolio-item:hover .thumb-inner div {
