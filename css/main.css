@@ -70,7 +70,10 @@
   opacity: 1;
   visibility: visible;
   position: relative;
-  bottom: -4em;
+}
+
+.resume {
+  width: 100%;
 }
 
 footer {
